@@ -1,3 +1,6 @@
+---
+custom-width: 100
+---
 # icm-architect
 
 A Claude skill that designs any process, idea, or problem into an **ICM workspace** — folder structure as agent architecture — or restructures an existing folder, repo, or vault into one.

@@ -1,3 +1,6 @@
+---
+custom-width: 100
+---
 # ICM Core
 
 The canon, distilled from the ICM paper (arXiv:2603.16021) and production workspaces. Read this when writing contracts, arguing a structural call, or checking a workspace against the method.

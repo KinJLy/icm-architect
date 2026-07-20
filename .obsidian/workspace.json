@@ -13,12 +13,63 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SKILL.md",
+                "file": "01_Architectural Review/01_compare/output/round-01-comparison.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SKILL"
+              "title": "round-01-comparison"
+            }
+          }
+        ]
+      },
+      {
+        "id": "109579026070af65",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2493c0e7e06913f8",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "/Users/kin/Documents/GitHub/icm-architect",
+                  "focus": false,
+                  "profile": {
+                    "args": [
+                      "--login"
+                    ],
+                    "environment": [],
+                    "executable": "/bin/zsh",
+                    "followTheme": true,
+                    "name": "",
+                    "platforms": {
+                      "darwin": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": false,
+                    "rightClickAction": "copyPaste",
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {
+                      "documentOverride": null
+                    },
+                    "type": "integrated",
+                    "useWin32Conhost": true
+                  },
+                  "profileSourceId": "darwinIntegratedDefault",
+                  "serial": null,
+                  "userTitle": ""
+                }
+              },
+              "pinned": true,
+              "icon": "terminal",
+              "title": "Terminal: ✳ ICM architectural review"
             }
           }
         ]
@@ -179,7 +230,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,47 +245,50 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "terminal:Open terminal": false,
       "obsidian-git:Open Git source control": false,
-      "agent-client:Open agent client": false
+      "agent-client:Open agent client": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "36a2d83c9e0a693f",
+  "active": "e966bd8bfbac838d",
   "lastOpenFiles": [
+    "01_Architectural Review/02_change-requests/output/round-01-change-requests.md",
+    "01_Architectural Review/01_compare/output/round-01-comparison.md",
+    "01_Architectural Review/01_compare/output/round-01-comparison.md.tmp.16617.04c44c36648d",
+    "01_Architectural Review/_reference/83 Brixton Rd/README.md",
+    "01_Architectural Review/_reference/83 Brixton Rd/README.md.tmp.16617.784559ad6bbd",
+    "01_Architectural Review/CONTEXT.md.tmp.16617.2583745d14b8",
+    "01_Architectural Review/_reference/2020572 - Lu {2} Ly - PLAN ARCHITECTURAL PDF - CONTRACT 00 (ID 737751).pdf",
+    "01_Architectural Review/_reference/2020572 - Lu {2} Ly - VARIATION REQUEST FORM (F10) - DRAFTING FORM 10 - 00 (ID 737746).docx",
+    "01_Architectural Review/_reference/83 Brixton Rd/fwdda2021023283brixtonroad/Stamped Plans - DA2021-0232 - 83 Brixton Road Berala.pdf alias",
+    "01_Architectural Review/CLAUDE.md",
+    "01_Architectural Review/01_compare/input/2020572 - Lu {2} Ly - PLAN ARCHITECTURAL PDF - CONTRACT 00 (ID 737751).pdf",
+    "01_Architectural Review/01_compare/input/2020572 - Lu {2} Ly - VARIATION REQUEST FORM (F10) - DRAFTING FORM 10 - 00 (ID 737746).docx",
+    "01_Architectural Review/_reference/83 Brixton Rd/fwd83brixtonapprovedccdocuments/83 Brixton Road Berala - APPROVED Waste Management Plan.pdf",
+    "01_Architectural Review/_reference/83 Brixton Rd/fwd83brixtonapprovedccdocuments/83 Brixton Road Berala - APPROVED Traffic Management Plan.pdf",
+    "01_Architectural Review/CONTEXT.md",
+    "01_Architectural Review/02_change-requests/output/README.md",
+    "01_Architectural Review/01_compare/output/README.md",
+    "01_Architectural Review/01_compare/input/README.md",
+    "01_Architectural Review/_reference/rkj-baseline/README.md",
+    "01_Architectural Review/_reference/pajic-costing.md",
+    "01_Architectural Review/_reference/voice.md",
+    "01_Architectural Review/02_change-requests/CONTEXT.md",
+    "01_Architectural Review/01_compare/CONTEXT.md",
+    "references/core.md",
+    "README.md",
+    "SKILL.md",
     "01_Architectural Review/Review Plans.md",
-    "01_Architectural Review",
     "Eduba Email.md",
-    "01_Projects/Director/Board CV/Kin Ly_Board CV_20260611.pdf",
     "01_Projects/Director/PWDA Director Application 2026/PWDA_2026_Nomination_Draft.md",
     "PWDA director application.md",
     "Short Paragraph for Mariane's ND Leadership course.md",
     "Untitled 1.md",
     "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/README.md",
-    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/requirements.txt",
-    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/package.json",
-    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/package-lock.json",
-    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/html2pptx-local.cjs",
     "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/CLAUDE.md",
-    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref",
-    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/Untitled",
     "03_Resources/Clief Notes/workspace-blueprint/example.md",
-    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/html2pptx-local.cjs",
-    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/package.json",
     "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/public/docx/ooxml.md",
-    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/public/docx/docx-js.md",
-    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/public/docx/SKILL.md",
-    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/public/pptx/html2pptx.md",
-    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/public/pptx/SKILL.md",
-    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/public/xlsx/SKILL.md",
-    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/public/pptx/ooxml.md",
-    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/public/pdf/SKILL.md",
-    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/public/pdf/REFERENCE.md",
-    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/public/pdf/FORMS.md",
-    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/skills-system.md",
-    "03_Resources/Clief Notes/workspace-blueprint/CLAUDE.md",
-    "03_Resources/Clief Notes/workspace-blueprint/community/docs/platforms.md",
-    "03_Resources/Clief Notes/workspace-blueprint/community/docs/calendar-rules.md",
-    "03_Resources/Clief Notes/workspace-blueprint/community/CONTEXT.md",
-    "03_Resources/Clief Notes/workspace-blueprint/exmple.md",
-    "03_Resources/Clief Notes/workspace-blueprint/_examples/04-common-mistakes.md",
     "01_Projects/Korthotics/Paediatric Orthosis AM Workflow.canvas",
     "01_Projects/Korthotics/Theory of Change.canvas",
     "Untitled.canvas",

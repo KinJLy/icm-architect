@@ -1,0 +1,46 @@
+---
+round: 1
+date: 2026-07-21
+baseline: _reference/83 Brixton Rd/fwd83brixtonapprovedccdocuments/83 Brixton Road Berala - APPROVED Architectural Plans.pdf (RJK Architects, Issue B, CC00-CC22)
+revision: 01_compare/input/2020572 - Lu {2} Ly - PLAN ARCHITECTURAL PDF - CONTRACT 00.pdf (Masterton, Presentation Plan, 08.07.2026, Rev 00)
+custom-width: 93
+---
+
+# Round 1 — RJK baseline vs Masterton revision, 83 Brixton Road
+
+Masterton already put their own list of changes in the Variation Request Form (F10) that came with these plans. I've gone through both plan sets and checked each of their 19 items against what's actually drawn, so you know which ones are cosmetic, which change how the house works, and which ones cost real money.
+
+| # | Item | Location | RJK baseline | Masterton | Change | Likely reason |
+|---|---|---|---|---|---|---|
+| 1 | Window sizes/styles | Whole house | Custom sizes throughout (e.g. 1500mm-high windows) | Masterton's own standard sizes (mostly 1457mm-high on first floor) | General swap to Masterton's catalogue windows instead of RJK's custom-drawn ones | Masterton builds to their own supplier's stock sizes — custom sizes cost more and take longer to order |
+| 2 | Bathroom window | Ground floor bath (near laundry) | Window ~1570×600mm at that wall | Smaller custom awning, code AW0506 | Swapped a bigger stock window (AW1506) for a smaller custom one | The window's bottom edge (sill) has to sit 1850mm off the floor for shower privacy — the standard-size window didn't fit above that line, so a custom one-off was needed |
+| 3 | Kitchen window | Kitchen | Window 730×2400mm | Custom awning, code AW2405 | Different proportions to what RJK drew | Masterton's window manufacturer doesn't make that exact shape as a stock item |
+| 4 | Wall near stair | Ground floor, near understairs storage | Wall aligned differently; storage under stair | Wall pulled in ~400mm to line up with the wall below it; stair, stair void and nearby thin walls adjusted | Structural/geometry clean-up around the stair | Makes the stair and the wall below it line up properly — avoids an awkward step in the wall |
+| 5 | Bed 2 wall over garage | First floor, above garage | Brick veneer | Cladding (JH Axon Cladding, shown on the elevations) | Brick swapped for lightweight cladding | Masterton's standard build for upper-floor walls over a garage uses cladding, not brick — lighter and doesn't need extra structural support under it |
+| 6 | Bed 3 wall over garage | First floor, above garage | Brick veneer | Cladding | Same swap as item 5 | Same reason as item 5 |
+| 7 | Bed 1 wall over kitchen | First floor, above kitchen | Brick veneer | Cladding | Same swap as item 5 | Same reason as item 5 |
+| 8 | Hebel feature depth | Balcony façade feature | Feature shown flush-ish with the eave | Feature 150mm deeper, pushed out past the eave line; balcony made deeper to match | Feature made to project further out | Brings it back in line with what the approved (RJK) plans actually show — Masterton's first draft had undersized it |
+| 9 | Hebel feature height | Balcony façade feature | — | Feature ~350mm taller | Height increased | The roof framing above it needs the extra height to physically fit together |
+| 10 | External steps | Front/side of house | Included in the build | "By owner after handover" (confirmed on Masterton's plan) | Removed from Masterton's scope | Common builder move — steps outside the footprint are often left for the owner to arrange separately, usually a cost-saver for the build contract but an added cost for you later |
+| 11 | Kitchen island bench | Kitchen | 3020mm long | ~2865mm long (matches Masterton's drawn dimension) | ~155mm shorter | Not enough clearance between the island and the pantry at the full 3020mm length |
+| 12 | Garage stepdown | Garage floor | Standard stepdown per approved plans | 172mm stepdown (marked "S/D -0.172" on Masterton's plan) | Deeper stepdown into the garage | Matches Masterton's standard slab/floor build-up, which sits differently to RJK's |
+| 13 | Alfresco & Porch stepdown | Alfresco, Porch | — | 75mm stepdown (marked "S/D -0.075" on Masterton's plan) | Standard 75mm used instead of the 172mm used elsewhere | Masterton's normal stepdown for these areas — the 172mm figure belongs at the garage only, not here |
+| 14 | Hebel feature width | Balcony façade feature | 350mm wide | 400mm wide | 50mm wider | Masterton builds this feature on a double-stud timber frame, which is a fixed module width — 350mm doesn't fit that construction method |
+| 15 | First floor side setback | Side of house, upper floor | 5000mm | 4970mm | 30mm less | Minor rounding once it was drawn up in Masterton's CAD system — not a real design change |
+| 16 | Rear setback | Rear of house | ~2200mm | 2174mm | ~26mm less | Same as above — CAD drawing accuracy, not a design change |
+| 17 | Side setback | Side of house, near garage | 904mm | 919mm | 15mm more | Same as above — CAD drawing accuracy, not a design change |
+| 18 | First floor wall cladding | Whole first floor, external | Mix of brick veneer, render, and cladding | Vertical Axon cladding (Masterton's standard) | First floor finish standardised to one cladding system | This is the umbrella change that items 5, 6 and 7 are part of — Masterton builds upper floors in their own standard cladding system rather than matching RJK's mixed material palette |
+| 19 | Store door | Ground floor, under-stair store | Bi-fold doors | Single 720mm hinged door | Door type changed | The bi-fold doors would have hit the stair once it was adjusted (see item 4) — a hinged door doesn't need the swing clearance a bi-fold does |
+
+## No changes noted
+Everything Masterton listed on their variation form is accounted for above. Nothing in the plans that RJK specified was left out of Masterton's version, and Masterton didn't flag anything beyond these 19 items.
+
+## Cost notes
+Pajic's figures (`_reference/pajic-costing.md`) are lump-sum totals for the whole house, not broken down by item, so I can't hand you an exact dollar figure per change — only which way each one likely pushes the price:
+
+- **Likely reduces cost**: items 5, 6, 7, 18 (cladding instead of brick veneer over three walls plus the general first-floor standard — cladding is usually cheaper and faster to install than brick veneer, though the swing depends on which cladding grade Masterton is using).
+- **Likely adds cost**: items 2, 3 (custom one-off windows instead of Masterton's stock sizes — custom always costs more than stock), 8, 9, 14 (hebel feature made bigger in three dimensions), 4 (extra carpentry adjusting the stair and walls), 19 (this one's probably closer to cost-neutral — a hinged door is usually cheaper than bi-fold, but it's a small item).
+- **Cost shifts to you, not Masterton**: item 10 (external steps) — likely lowers Masterton's contract price but you'll pay for it separately after handover.
+- **No real cost impact**: items 1 (window range is roughly like-for-like), 11 (bench length), 12, 13 (stepdowns — normal building-method differences), 15, 16, 17 (all just CAD rounding, sub-30mm).
+
+If you want real numbers instead of directions, this is exactly where getting itemised costing from Pajic on the same 19 items would let round 2 replace "likely reduces/adds cost" with actual dollar deltas.
