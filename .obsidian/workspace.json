@@ -1,0 +1,243 @@
+{
+  "main": {
+    "id": "2e4f9fa14b514574",
+    "type": "split",
+    "children": [
+      {
+        "id": "a9962055e0cd202f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e966bd8bfbac838d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SKILL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SKILL"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "be36d9ddeada3af9",
+    "type": "split",
+    "children": [
+      {
+        "id": "553f7154e14ad170",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "36a2d83c9e0a693f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "1bbadc2aefbf59fd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "pwda",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1c51f53e5cbdb436",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 283.5
+  },
+  "right": {
+    "id": "ff7852d5d4ca9d6b",
+    "type": "split",
+    "children": [
+      {
+        "id": "f1f370f6c749aadf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65d3aa6d890a7a38",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02_Areas/Observership/LinkedIn Post - End of Observership.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for LinkedIn Post - End of Observership"
+            }
+          },
+          {
+            "id": "7e4a8bac6a64ba2e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "02_Areas/Observership/LinkedIn Post - End of Observership.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from LinkedIn Post - End of Observership"
+            }
+          },
+          {
+            "id": "62c4e77447004825",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e420d9c7cb5f687d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "ba27ba59aaa96e94",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "15d73363f0fa71bc",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "terminal:Open terminal": false,
+      "obsidian-git:Open Git source control": false,
+      "agent-client:Open agent client": false
+    }
+  },
+  "active": "36a2d83c9e0a693f",
+  "lastOpenFiles": [
+    "01_Architectural Review/Review Plans.md",
+    "01_Architectural Review",
+    "Eduba Email.md",
+    "01_Projects/Director/Board CV/Kin Ly_Board CV_20260611.pdf",
+    "01_Projects/Director/PWDA Director Application 2026/PWDA_2026_Nomination_Draft.md",
+    "PWDA director application.md",
+    "Short Paragraph for Mariane's ND Leadership course.md",
+    "Untitled 1.md",
+    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/README.md",
+    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/requirements.txt",
+    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/package.json",
+    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/package-lock.json",
+    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/html2pptx-local.cjs",
+    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/CLAUDE.md",
+    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref",
+    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/Untitled",
+    "03_Resources/Clief Notes/workspace-blueprint/example.md",
+    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/html2pptx-local.cjs",
+    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/package.json",
+    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/public/docx/ooxml.md",
+    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/public/docx/docx-js.md",
+    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/public/docx/SKILL.md",
+    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/public/pptx/html2pptx.md",
+    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/public/pptx/SKILL.md",
+    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/public/xlsx/SKILL.md",
+    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/public/pptx/ooxml.md",
+    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/public/pdf/SKILL.md",
+    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/public/pdf/REFERENCE.md",
+    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/public/pdf/FORMS.md",
+    "03_Resources/Clief Notes/workspace-blueprint/claude-office-skills-ref/skills-system.md",
+    "03_Resources/Clief Notes/workspace-blueprint/CLAUDE.md",
+    "03_Resources/Clief Notes/workspace-blueprint/community/docs/platforms.md",
+    "03_Resources/Clief Notes/workspace-blueprint/community/docs/calendar-rules.md",
+    "03_Resources/Clief Notes/workspace-blueprint/community/CONTEXT.md",
+    "03_Resources/Clief Notes/workspace-blueprint/exmple.md",
+    "03_Resources/Clief Notes/workspace-blueprint/_examples/04-common-mistakes.md",
+    "01_Projects/Korthotics/Paediatric Orthosis AM Workflow.canvas",
+    "01_Projects/Korthotics/Theory of Change.canvas",
+    "Untitled.canvas",
+    "02_Areas/Personal/Protocols/Check In Protocol.canvas",
+    "Untitled 1.canvas"
+  ]
+}
