@@ -295,7 +295,7 @@ Document
 5. Clinical Assessment Findings
 5.1 Assessment Overview
 
-M attended KOrthotics for a comprehensive orthotic and assistive technology assessment to determine appropriate intervention options for mobility limitations associated with Multiple Sclerosis.
+M attended Korthotics for a comprehensive orthotic and assistive technology assessment to determine appropriate intervention options for mobility limitations associated with Multiple Sclerosis.
 
 The assessment included:
 

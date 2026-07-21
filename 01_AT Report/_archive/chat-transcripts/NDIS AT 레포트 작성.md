@@ -50,7 +50,7 @@ Moderate spasticity in soleus and gastrocs, with gastrocs > soleus, mild spastic
 Other things to note: Right sided toe curling becomes evident with prolonged standing/walking.
 Mobility: Independent with a 4-Wheeled walker indoors.
 Gait: Right Knee hyperextension on stance, right foot drop and inversion in mid-swing.
- She has trialled an off the shelf AFO (OAPL Supra-Lite AFO), however this has been unsuccessful and ill-fitting and we are in the process of sourcing a custom made AFO from KOrthotics. However at present, she does does not have funding for Orthotics in her NDIS plan. 
+ She has trialled an off the shelf AFO (OAPL Supra-Lite AFO), however this has been unsuccessful and ill-fitting and we are in the process of sourcing a custom made AFO from Korthotics. However at present, she does does not have funding for Orthotics in her NDIS plan. 
 
 This is an application for M for NDIS-funded community trial of the Bioness L300 Go Functional Electrical Stimulation (FES) system. M has a confirmed diagnosis of Multiple Sclerosis (MS) and presents with significant foot drop and gait impairment on her right side, which impacts mobility, community participation, and safety.
 
@@ -111,11 +111,11 @@ Reduced comfort
 Presence of contracture and spasticity
 Excessive bulkiness affecting functional use and acceptance
 
-M is currently in the process of being assessed for a custom-made AFO through KOrthotics; however, there is currently no orthotic funding available within her NDIS plan.
+M is currently in the process of being assessed for a custom-made AFO through Korthotics; however, there is currently no orthotic funding available within her NDIS plan.
 
 In-Clinic Trial of Bioness L300 Go
 
-M attended KOrthotics on 24 September 2025 with her mother and treating physiotherapist to assess suitability for Functional Electrical Stimulation (FES) using the Bioness L300 Go system.
+M attended Korthotics on 24 September 2025 with her mother and treating physiotherapist to assess suitability for Functional Electrical Stimulation (FES) using the Bioness L300 Go system.
 
 During the in-clinic trial, the Bioness L300 Go demonstrated immediate functional improvements including:
 

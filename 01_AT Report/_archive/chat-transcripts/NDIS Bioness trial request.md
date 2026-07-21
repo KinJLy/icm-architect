@@ -7,7 +7,7 @@ Moderate spasticity in soleus and gastrocs, with gastrocs > soleus, mild spastic
 Other things to note: Right sided toe curling becomes evident with prolonged standing/walking.
 Mobility: Independent with a 4-Wheeled walker indoors.
 Gait: Right Knee hyperextension on stance, right foot drop and inversion in mid-swing.
- She has trialled an off the shelf AFO (OAPL Supra-Lite AFO), however this has been unsuccessful and ill-fitting and we are in the process of sourcing a custom made AFO from KOrthotics. However at present, she does does not have funding for Orthotics in her NDIS plan. 
+ She has trialled an off the shelf AFO (OAPL Supra-Lite AFO), however this has been unsuccessful and ill-fitting and we are in the process of sourcing a custom made AFO from Korthotics. However at present, she does does not have funding for Orthotics in her NDIS plan. 
 
 
 
@@ -73,11 +73,11 @@ Mobility:
 Independent ambulation with a 4-wheeled walker indoors
 Interventions Trialled
 
-M has trialled an off-the-shelf OAPL Supra-Lite AFO, which was unsuccessful and ill-fitting. The AFO was found unsuitable due to the combination of spasticity, mild contracture, and M’s sensory preferences (she reported discomfort and disliked the bulkiness). A custom AFO is being considered through KOrthotics; however, there is currently no orthotic funding available in her NDIS plan.
+M has trialled an off-the-shelf OAPL Supra-Lite AFO, which was unsuccessful and ill-fitting. The AFO was found unsuitable due to the combination of spasticity, mild contracture, and M’s sensory preferences (she reported discomfort and disliked the bulkiness). A custom AFO is being considered through Korthotics; however, there is currently no orthotic funding available in her NDIS plan.
 
 Rationale for FES (Bioness L300 Go)
 
-M attended an appointment at KOrthotics on 24 September 2025 with her mother and physiotherapist for a clinical trial of the Bioness L300 Go. The device applies electrical stimulation to the common peroneal nerve, producing ankle dorsiflexion during gait. This directly addresses foot drop and facilitates a more natural and efficient walking pattern.
+M attended an appointment at Korthotics on 24 September 2025 with her mother and physiotherapist for a clinical trial of the Bioness L300 Go. The device applies electrical stimulation to the common peroneal nerve, producing ankle dorsiflexion during gait. This directly addresses foot drop and facilitates a more natural and efficient walking pattern.
 
 The Bioness system provides both orthotic (immediate) and therapeutic (long-term) benefits:
 
@@ -170,7 +170,7 @@ Foot drop and inversion during mid-swing phase
 Previous Orthotic Intervention
 
 M trialled an off-the-shelf OAPL Supra-Lite AFO, which proved unsuccessful and ill-fitting due to the combination of spasticity, mild contracture, and her limb shape. M also reported discomfort and difficulty tolerating the AFO due to its bulkiness.
-A custom-made AFO is currently being considered through KOrthotics; however, orthotic funding is not presently included in M’s NDIS plan.
+A custom-made AFO is currently being considered through Korthotics; however, orthotic funding is not presently included in M’s NDIS plan.
 
 Trial of Functional Electrical Stimulation (FES)
 

@@ -162,9 +162,7 @@
       "type": "external"
     },
     "darwinIntegratedDefault": {
-      "args": [
-        "--login"
-      ],
+      "args": [],
       "environment": [],
       "executable": "/bin/zsh",
       "followTheme": true,
@@ -290,7 +288,7 @@
       "useWin32Conhost": true
     }
   },
-  "defaultProfile": "darwinIntegratedDefault",
+  "defaultProfile": "win32IntegratedDefault",
   "terminalOptions": {
     "documentOverride": null
   }

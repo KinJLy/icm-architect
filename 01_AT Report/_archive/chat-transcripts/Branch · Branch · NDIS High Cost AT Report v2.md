@@ -515,7 +515,7 @@ Mee Young Lee
 
 Orthotist
 
-KOrthotics
+Korthotics
 
 Provider Number: To be completed
 

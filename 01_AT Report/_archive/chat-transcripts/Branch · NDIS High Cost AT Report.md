@@ -370,7 +370,7 @@ Assistive Technology Requested: Bioness L300 Go Functional Electrical Stimulatio
 
 Prepared By: [Orthotist Name], CO
 
-Organisation: KOrthotics
+Organisation: Korthotics
 
 Date of Report: [Insert]
 

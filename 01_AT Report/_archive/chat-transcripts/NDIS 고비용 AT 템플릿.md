@@ -4,15 +4,15 @@
             Ph: (02) 8710 4183
            
 
-KOrthotics 브랜딩을 적용한 워드 템플릿을 생성했습니다.
+Korthotics 브랜딩을 적용한 워드 템플릿을 생성했습니다.
 
 다운로드:
 
-KOrthotics_NDIS_High_Cost_AT_Master_Template.docx
+Korthotics_NDIS_High_Cost_AT_Master_Template.docx
 
 현재 포함 내용:
 
-KOrthotics 로고
+Korthotics 로고
 회사 정보
 ABN: 44 108 507 115
 ACN: 108 507 115
@@ -23,7 +23,7 @@ NDIS High Cost AT Report 표준 섹션
 
 다음 단계로는 사용자가 실제 제출하는 형태에 맞게:
 
-KOrthotics 공식 레터헤드
+Korthotics 공식 레터헤드
 자동 목차
 페이지 번호
 NDIS High Cost AT 전용 표
@@ -36,7 +36,7 @@ Orthotist Declaration
 전자서명란
 Appendix 자동 서식
 
-까지 포함된 25~30페이지 수준의 KOrthotics 제출용 Master Template으로 업그레이드할 수 있습니다. 이 버전은 실제로 NDIS에 반복 제출할 때 환자 정보만 바꿔서 사용하는 형태로 구성할 수 있습니다. 
+까지 포함된 25~30페이지 수준의 Korthotics 제출용 Master Template으로 업그레이드할 수 있습니다. 이 버전은 실제로 NDIS에 반복 제출할 때 환자 정보만 바꿔서 사용하는 형태로 구성할 수 있습니다. 
 
 제출용 마스터 탬플렛으로 업그레이드 해줘
 
@@ -44,11 +44,11 @@ Appendix 자동 서식
 
 다운로드:
 
-KOrthotics_NDIS_High_Cost_AT_Master_Submission_Template.docx
+Korthotics_NDIS_High_Cost_AT_Master_Submission_Template.docx
 
 현재 버전에는 다음이 포함되어 있습니다.
 
-KOrthotics 로고 및 회사 정보
+Korthotics 로고 및 회사 정보
 제출용 커버페이지
 목차 페이지
 23개 NDIS High Cost AT Report 섹션
@@ -66,7 +66,7 @@ Appendices 구조
 
 다만 실제 NDIS 심사관에게 제출하는 수준의 마스터 템플릿이라면 추가로 다음이 들어가야 합니다.
 
-실제 KOrthotics 제출용 최종 마스터 버전 구성
+실제 Korthotics 제출용 최종 마스터 버전 구성
 
 표준 테이블
 
@@ -100,7 +100,7 @@ Value for Money Table
 Future Cost Reduction Table
 Risk of Non-Funding Table
 
-KOrthotics 표준 문안
+Korthotics 표준 문안
 
 Executive Summary 템플릿
 Clinical Reasoning 템플릿
@@ -116,7 +116,7 @@ Photos
 Referrer Letter
 Research References
 
-이렇게 만들면 이후에는 환자 정보만 바꿔서 Bioness, AFO, KAFO, CFKAFO, Dynamic CFAFO 케이스에 반복 사용 가능한 KOrthotics 표준 NDIS High Cost AT Report로 사용할 수 있습니다. 현재 템플릿은 구조 중심 버전이고, 다음 단계는 실제 심사관이 보는 문장과 표까지 모두 포함된 “실전 제출용 마스터 문안 템플릿”입니다. 
+이렇게 만들면 이후에는 환자 정보만 바꿔서 Bioness, AFO, KAFO, CFKAFO, Dynamic CFAFO 케이스에 반복 사용 가능한 Korthotics 표준 NDIS High Cost AT Report로 사용할 수 있습니다. 현재 템플릿은 구조 중심 버전이고, 다음 단계는 실제 심사관이 보는 문장과 표까지 모두 포함된 “실전 제출용 마스터 문안 템플릿”입니다. 
 
 Tue, Jun 30 at 10:12 PM
 환자 근육스트렝스 테스트 결과가 0/5 와 3/5 가있어 0은 피지오가 테스트 한거구 3은 뉴롤로지스트가 한거야. 최종본 작성해놓은데 전체적인 수정보다 관련부분 수정할수 있어?
