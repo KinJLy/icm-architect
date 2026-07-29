@@ -1,3 +1,6 @@
+---
+custom-width: 100
+---
 # Support letter templates — community trial / device funding request
 
 Three author variants below. Pick the one matching who's signing; the clinical content (Section 2, functional impact) is the same shape regardless of author.

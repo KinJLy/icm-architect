@@ -8,6 +8,7 @@ Consolidated from the restructure of `markdown_files/` into this ICM workspace. 
 - [ ] **`markdown_files/PDFs/`** — rendered PDF exports of the *old* file structure; not regenerated or reconciled against the new `references/` + `records/` layout. Treat as stale once the underlying `.md` content changes.
 - [ ] **`01_AT Report/Documentation/`** (added later) holds real source files — the actual v3(5)–v3(11) Word draft series, factory templates (`KOrthotics_NDIS_High_Cost_AT_Master_Submission_Template.docx`, `NDIS_High_Cost_AT_Report_Template.docx`, `NDIS_High_Cost_AT_Report_Cover_Executive_Summary.docx`), and raw evidence PDFs. The report draft has been mined (see M's section below); **the factory templates have not been** — they may refine or replace `references/report-block-structure.md` and `references/org-info.md` further. Left in place, not reorganised into `records/`/`references/`, since that means moving several large binaries and hasn't been asked for.
 - [ ] **`Re_ Megan Hollway.eml`** — per instruction, not opened. Still sitting in `Documentation/` whenever it's wanted.
+- [ ] **`references/support-letter-templates.md`** only has the three author variants (generic/allied health, orthotist assessor, physiotherapist) sourced from two archived chat transcripts — more support letter examples/templates should be added to broaden the reference set.
 
 ## M / Megan Hollway — Bioness L300 Go (records/m-bioness-l300go/)
 

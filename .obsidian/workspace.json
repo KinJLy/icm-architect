@@ -6,7 +6,7 @@
       {
         "id": "a9962055e0cd202f",
         "type": "tabs",
-        "dimension": 74.64028776978418,
+        "dimension": 62.67908309455588,
         "children": [
           {
             "id": "e966bd8bfbac838d",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Architectural Review/01_compare/output/round-01-comparison.md",
+                "file": "01_AT Report/references/support-letter-templates.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "round-01-comparison"
+              "title": "support-letter-templates"
             }
           }
         ]
@@ -27,7 +27,7 @@
       {
         "id": "109579026070af65",
         "type": "tabs",
-        "dimension": 25.359712230215827,
+        "dimension": 37.32091690544412,
         "children": [
           {
             "id": "2493c0e7e06913f8",
@@ -131,8 +131,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "ff7852d5d4ca9d6b",
@@ -233,7 +232,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -253,10 +253,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "e966bd8bfbac838d",
+  "active": "2493c0e7e06913f8",
   "lastOpenFiles": [
-    "01_Architectural Review/01_compare/output/README.md",
+    "01_Architectural Review/_reference/ndisaccessrequestforkinjinglywithsupportinginformat.zip",
+    "01_AT Report/references/support-letter-templates.md",
+    "01_AT Report/_templates/case-template/02_trial-request/CONTEXT.md",
+    "01_AT Report/CONTEXT.md",
     "01_Architectural Review/01_compare/output/round-01-comparison.md",
+    "01_Architectural Review/01_compare/output/README.md",
     "01_Architectural Review/01_compare/input/2020572 - Lu {2} Ly - PLAN ARCHITECTURAL PDF - CONTRACT 00 (ID 737751).pdf",
     "01_Architectural Review/_reference/voice.md",
     "01_Architectural Review/_reference/2020572 - Lu {2} Ly - VARIATION REQUEST FORM (F10) - DRAFTING FORM 10 - 00 (ID 737746).docx",
@@ -264,7 +268,6 @@
     "01_Architectural Review/_reference/pajic-costing.md",
     "01_AT Report/references/justification-banks/ms-fes.md",
     "01_AT Report/references/justification-banks/assessment-discrepancy-reasoning.md",
-    "01_AT Report/references/support-letter-templates.md",
     "01_AT Report/references/submission-compliance-checklist.md",
     "01_AT Report/references/report-block-structure.md",
     "01_AT Report/references/outcome-measures.md",
@@ -282,8 +285,6 @@
     "01_AT Report/records/m-bioness-l300go/05_report-draft/output/report.md",
     "01_AT Report/records/m-bioness-l300go/05_report-draft/output/draft-participant-goals-section.md",
     "01_AT Report/records/m-bioness-l300go/03_community-trial/output/logbook.md",
-    "01_AT Report/records/m-bioness-l300go/03_community-trial/output/balance-confidence-measures.md",
-    "01_AT Report/records/m-bioness-l300go/02_trial-request/output/support-letter.md",
     "01_AT Report/records/p-custom-afo-cp/01_intake-assessment/output",
     "01_AT Report/records/m-bioness-l300go/06_submission/output",
     "01_AT Report/records/m-bioness-l300go/04_washout/output",
