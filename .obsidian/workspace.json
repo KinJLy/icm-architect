@@ -6,7 +6,6 @@
       {
         "id": "a9962055e0cd202f",
         "type": "tabs",
-        "dimension": 62.67908309455588,
         "children": [
           {
             "id": "e966bd8bfbac838d",
@@ -20,58 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "support-letter-templates"
-            }
-          }
-        ]
-      },
-      {
-        "id": "109579026070af65",
-        "type": "tabs",
-        "dimension": 37.32091690544412,
-        "children": [
-          {
-            "id": "2493c0e7e06913f8",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "terminal:terminal",
-              "state": {
-                "terminal:terminal": {
-                  "cwd": "/Users/kin/Documents/GitHub/icm-architect",
-                  "focus": false,
-                  "profile": {
-                    "args": [
-                      "--login"
-                    ],
-                    "environment": [],
-                    "executable": "/bin/zsh",
-                    "followTheme": true,
-                    "name": "",
-                    "platforms": {
-                      "darwin": true
-                    },
-                    "pythonExecutable": "python3",
-                    "restoreHistory": false,
-                    "rightClickAction": "copyPaste",
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {
-                      "documentOverride": null
-                    },
-                    "type": "integrated",
-                    "useWin32Conhost": true
-                  },
-                  "profileSourceId": "darwinIntegratedDefault",
-                  "serial": null,
-                  "userTitle": ""
-                }
-              },
-              "pinned": true,
-              "icon": "terminal",
-              "title": "Terminal: zsh"
             }
           }
         ]
@@ -94,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -232,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -253,7 +201,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2493c0e7e06913f8",
+  "active": "e966bd8bfbac838d",
   "lastOpenFiles": [
     "01_Architectural Review/_reference/ndisaccessrequestforkinjinglywithsupportinginformat.zip",
     "01_AT Report/references/support-letter-templates.md",
