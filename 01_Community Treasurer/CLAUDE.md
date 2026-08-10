@@ -19,7 +19,7 @@ Built on ICM: folders carry sequencing, hierarchy carries context, files carry s
 
 | If | Go to | Then stop at |
 |---|---|---|
-| a new bank statement/CSV has arrived | `01_Import/CONTEXT.md` | human confirms the file landed in `inbox/` |
+| a new bank statement (CSV or XLSX) has arrived | `01_Import/CONTEXT.md` | human confirms the file landed in `inbox/` |
 | import is sitting in `01_Import/inbox/` | `02_Reconcile/CONTEXT.md` | human resolves flagged discrepancies before posting |
 | reconciled entries are ready to post | `03_Ledger/CONTEXT.md` | human confirms `ledger.md` looks right |
 | a board report is due | `04_Report/CONTEXT.md` | human reads the report before it goes to the board |

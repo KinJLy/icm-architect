@@ -7,7 +7,7 @@ The flow in one line: import the bank statement, reconcile it against receipts, 
 
 | Stage | Job | Input | Output | Human check |
 |---|---|---|---|---|
-| `01_Import` | drop the raw bank export for a period | bank CSV/statement | `inbox/{period}.csv` | confirm the right period, right account |
+| `01_Import` | drop the raw bank export for a period | bank CSV/XLSX export | `inbox/{period}.csv` (or `.xlsx`) | confirm the right period, right account |
 | `02_Reconcile` | match imports + receipts against the ledger, flag diffs | 01's output, `receipts/`, `03_Ledger/ledger.md` | `output/{period}-reconciliation.md` | resolve every flagged discrepancy before it's posted |
 | `03_Ledger` | post reconciled entries; the running record | 02's approved output | `ledger.md` (appended) | spot-check balances match the bank statement |
 | `04_Report` | turn the ledger as-of-date into a board report | `03_Ledger/ledger.md`, `_shared/*` | `output/{period}-board-report.md` | read it before it goes to the board |
