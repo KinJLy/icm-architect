@@ -1,3 +1,6 @@
+---
+custom-width: 99
+---
 # Community Treasurer — the pipeline
 
 The flow in one line: import the bank statement, reconcile it against receipts, post it to the ledger, report it to the board.

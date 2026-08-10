@@ -1,3 +1,6 @@
+---
+custom-width: 100
+---
 # Community Treasurer
 
 Reconciles bank/receipt transactions into a ledger, and turns the ledger into board-ready financial reports.

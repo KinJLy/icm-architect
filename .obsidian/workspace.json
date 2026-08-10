@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_AT Report/references/support-letter-templates.md",
+                "file": "01_Community Treasurer/CLAUDE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "support-letter-templates"
+              "title": "CLAUDE"
             }
           }
         ]
@@ -203,8 +203,10 @@
   },
   "active": "e966bd8bfbac838d",
   "lastOpenFiles": [
-    "01_Architectural Review/_reference/ndisaccessrequestforkinjinglywithsupportinginformat.zip",
+    "01_Community Treasurer/CONTEXT.md",
+    "README.md",
     "01_AT Report/references/support-letter-templates.md",
+    "01_Architectural Review/_reference/ndisaccessrequestforkinjinglywithsupportinginformat.zip",
     "01_AT Report/_templates/case-template/02_trial-request/CONTEXT.md",
     "01_AT Report/CONTEXT.md",
     "01_Architectural Review/01_compare/output/round-01-comparison.md",
@@ -232,13 +234,11 @@
     "01_AT Report/records/m-bioness-l300go/04_washout/output/washout-findings.md",
     "01_AT Report/records/m-bioness-l300go/05_report-draft/output/report.md",
     "01_AT Report/records/m-bioness-l300go/05_report-draft/output/draft-participant-goals-section.md",
-    "01_AT Report/records/m-bioness-l300go/03_community-trial/output/logbook.md",
     "01_AT Report/records/p-custom-afo-cp/01_intake-assessment/output",
     "01_AT Report/records/m-bioness-l300go/06_submission/output",
     "01_AT Report/records/m-bioness-l300go/04_washout/output",
     "01_AT Report/records/m-bioness-l300go/05_report-draft/output",
     "01_AT Report/records/m-bioness-l300go/03_community-trial/output",
-    "01_AT Report/records/m-bioness-l300go/02_trial-request/output",
     "01_Projects/Korthotics/Paediatric Orthosis AM Workflow.canvas",
     "01_Projects/Korthotics/Theory of Change.canvas",
     "Untitled.canvas",
