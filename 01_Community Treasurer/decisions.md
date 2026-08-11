@@ -13,6 +13,16 @@ This file tracks key architectural decisions, mistakes, and technical learnings 
 - **Decision**: Use a script-based migration for historical data from Excel to Markdown.
 - **Reasoning**: Manual entry of years of historical data is error-prone. A script ensures that dates, descriptions, categories, and balances are preserved exactly as they appear in the source.
 
+### Scoped Reporting to Cash-Basis
+- **Decision**: `04_Report` produces a cash-basis income/expenditure statement and cash summary, not a full Statement of Financial Position (balance sheet), despite `_shared/treasurer-principles.md` calling for one.
+- **Reasoning**: This organisation's cash cycle (stall sales, school program subsidies, annual insurance, low-value equipment) has no material assets/liabilities structure — no funds held on behalf of others, no inventory, no prepayments worth tracking. A full balance sheet would require double-entry bookkeeping for no real reporting benefit.
+- **Impact**: `04_Report/CONTEXT.md` documents this as a deliberate scope deviation, with the trigger for revisiting it spelled out (the organisation starts holding funds in advance/on behalf of others). `_shared/chart-of-accounts.md` reflects cash-basis categories only.
+
+### Account Registry (`_shared/accounts.md`)
+- **Decision**: Added a central account registry instead of hardcoding ledger filenames (`ledger-0259.md`, `ledger-1844.md`) into every stage's `CONTEXT.md`.
+- **Reasoning**: The account count grew from 2 to 4 mid-project (see "Fourth Account Discovery" below). Hardcoding account names in multiple files meant every change required editing several `CONTEXT.md` files; a registry makes it a one-file edit.
+- **Impact**: Every stage now says "the account's ledger per the registry" rather than naming files directly. The registry also tracks Active/Dormant status so `04_Report` knows which accounts to include in cash summaries and solvency checks.
+
 ## Mistakes & Corrections
 
 ### Mixed Ledger (Corrected)
@@ -22,6 +32,10 @@ This file tracks key architectural decisions, mistakes, and technical learnings 
 ### Column Mapping Collision (Corrected)
 - **Mistake**: The migration script picked the *last* occurrence of headers like "Date" and "Balance" in sheets that contained both accounts side-by-side (2025 and 2026). This caused data from Account 1844 to be incorrectly assigned to the Account 0259 ledger.
 - **Correction**: Updated `migrate_ledger.py` to dynamically select the first occurrence of headers for Account 0259 and the second occurrence for Account 1844.
+
+### CSV Running-Balance Direction (Corrected)
+- **Mistake**: When account 5443's CSV export was first read, its *oldest* row's balance (~$17k) was quoted as the account's current balance.
+- **Correction**: Realised the bank CSV exports are sorted **newest-first** (most recent transaction in row 1), the opposite of the ledger's oldest-first convention — so the current balance is the *first* row's balance, not the last. Corrected to the true closing balance ($7,896.49 as of 09/12/2024) before posting.
 
 ## Technical Learnings
 
@@ -39,3 +53,11 @@ This file tracks key architectural decisions, mistakes, and technical learnings 
 ### Project Pipeline
 - **Naming Conventions**: Reinforce the use of `{account}-{period}.xlsx` in the `01_Import/inbox/` folder to maintain consistency in the pipeline.
 - **Human-in-the-loop**: Reconfirmed the "one rule": no data moves to the next stage until a human has verified the output of the previous stage.
+- **Bank CSV export format**: Standard bank CSV exports (no header row; columns Date, Amount, Description, Balance) are sorted newest-first — always reverse before treating a row's position as chronological order.
+
+### Fourth Account Discovery (2026-08-11)
+- **Finding**: The organisation actually has 4 bank accounts, not the 2 (`0259`, `1844`) originally migrated. Two more (`5443`, `1836`) were confirmed at the bank during the 2026 treasurer handover but weren't in the source "General Ledger" spreadsheet.
+- **Investigation**: `5443`'s CSV showed no activity after 09/12/2024 — genuinely dormant, closing balance $7,896.49. `1836`'s CSV showed continuous activity through 05/05/2026 (Square terminal deposits, payments to "LW Reid Pty Ltd", transactions labelled "Uniform sales"/"Uniform shop") — identified as the organisation's active uniform-sales account, not a dormant leftover from the outsourced uniform shop. The two accounts are linked: matching dated transfers show money moving from `1836` into `5443` through 2024, before `5443` swept most of its balance to another bank account in December 2024.
+- **Explanation**: Handover gap, not a control issue — the account was run by the president together with the previous treasurer last year and wasn't passed on. Confirmed via the bank (not just paperwork) that no further accounts exist beyond these 4.
+- **Resolution**: Both accounts migrated via the normal `01_Import` → `02_Reconcile` → `03_Ledger` pipeline as a one-off historical catch-up import (see `03_Ledger/ledger-5443.md`, `03_Ledger/ledger-1836.md`, and `02_Reconcile/output/*-historical-reconciliation.md`). Registered in `_shared/accounts.md` with full context. Categories left uncoded, same as the original two ledgers, pending treasurer time.
+- **Verification technique**: Cross-referencing linked transfers between two accounts' CSVs (matching date + amount on opposite legs) is a useful sanity check when reconstructing account relationships from raw bank data alone.

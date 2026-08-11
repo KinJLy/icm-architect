@@ -1,35 +1,35 @@
 ---
 name: chart-of-accounts
-status: STUB — confirm/edit these against your actual categories before first use
+status: confirmed against the organisation's actual cash cycle (event stalls, school program subsidies, annual insurance) — 2026-08-11
 ---
 
 # Chart of accounts
 
-Placeholder categories, seeded from common not-for-profit/community-group patterns. Nothing here is fact about this organisation — edit freely, then delete this notice.
+Cash-basis categories. No formal balance-sheet accounts (assets/liabilities) — see `04_Report/CONTEXT.md` for why.
 
 ## Income
+- Stall / event sales
 - Membership fees
 - Donations
 - Grants
 - Sponsorship
-- Fundraising / special events
-- Interest / bank income
+- Credit interest
 - Other / sundries
 
 ## Expenses
-- Rent / venue
-- Insurance
+- Event costs — supplier bookings, stock/items bought for stall days
+- School program subsidies (STEM, incursions, etc.)
+- Excursion subsidies
+- Class items (books, umbrellas, and similar one-off purchases for classes)
+- Insurance (annual)
 - Bank fees
+- Equipment (cash tins, tubs, mascot costume, and similar low-value items — expensed when bought, not depreciated)
 - Office supplies / printing
 - Communications (phone, internet, website)
-- Travel
-- Event costs
-- Salaries / contractor payments (if applicable)
 - Other / sundries
 
-## Balance sheet categories
-- Cash at bank
-- Petty cash
-- Accounts receivable (money owed to us)
-- Accounts payable (money we owe)
-- Equipment / assets
+## Not tracked as balance-sheet accounts
+- Stock bought for a stall is expensed when purchased, not carried as inventory.
+- Annual insurance is expensed when paid, not spread across the policy period as a prepayment.
+- Physical equipment is expensed when bought; if a stocktake/insurance list is needed, keep it separately as a non-financial register, not a ledger account.
+- School-owned equipment borrowed for events never appears here — it isn't owned by the organisation.

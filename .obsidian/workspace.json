@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Community Treasurer/CLAUDE.md",
+                "file": "01_Community Treasurer/CONTEXT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "CONTEXT"
             }
           }
         ]
@@ -175,13 +175,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "df66442a1aa7a46e",
+            "type": "leaf",
+            "state": {
+              "type": "terminal-view",
+              "state": {},
+              "icon": "terminal",
+              "title": "Claude Code"
+            }
           }
         ],
         "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 461.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,29 +208,37 @@
       "agent-client:Open agent client": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "termy:Open terminal": false
     }
   },
   "active": "15d73363f0fa71bc",
   "lastOpenFiles": [
-    "01_Community Treasurer/extract_2026_transactions.py",
-    "01_Community Treasurer/fix_dates.py",
+    "01_Community Treasurer/CONTEXT.md.tmp.30056.12af1bd6e50b",
+    "01_Community Treasurer/STATUS.md",
+    "01_Community Treasurer/STATUS.md.tmp.30056.c403166bc1c3",
+    "01_Community Treasurer/decisions.md.tmp.30056.ba33317faa39",
+    "01_Community Treasurer/decisions.md.tmp.30056.c35f2ca59613",
+    "01_Community Treasurer/decisions.md.tmp.30056.693c78a79e0f",
+    "01_Community Treasurer/decisions.md",
+    "01_Community Treasurer/CLAUDE.md",
+    "01_Community Treasurer/_shared/accounts.md.tmp.30056.9c0d7b4ee324",
+    "01_Community Treasurer/_shared/accounts.md.tmp.30056.7d404fdb2bb2",
+    "01_Community Treasurer/03_Ledger/ledger-1836.md",
+    "01_Community Treasurer/03_Ledger/ledger-5443.md",
+    "01_Community Treasurer/02_Reconcile/output/1836-historical-reconciliation.md.tmp.30056.26eb79e2114a",
+    "01_Community Treasurer/02_Reconcile/output/5443-historical-reconciliation.md.tmp.30056.7564a1b47f97",
+    "01_Community Treasurer/02_Reconcile/output/1836-historical-reconciliation.md",
+    "01_Community Treasurer/02_Reconcile/output/5443-historical-reconciliation.md",
+    "01_Community Treasurer/01_Import/inbox/1836-historical.csv",
+    "01_Community Treasurer/01_Import/inbox/5443-historical.csv",
+    "01_Community Treasurer/_shared/accounts.md",
     "01_Community Treasurer/02_Reconcile/transactions-2026.md",
-    "01_Community Treasurer/03_Ledger/sediW0tUQ",
     "01_Community Treasurer/03_Ledger/ledger-1844.md",
     "01_Community Treasurer/03_Ledger/ledger-0259.md",
     "01_Community Treasurer/ledger-1844-migration.md",
     "01_Community Treasurer/ledger-0259-migration.md",
-    "01_Community Treasurer/migrate_ledger.py",
-    "01_Community Treasurer/decisions.md",
-    "01_Community Treasurer/fix_context_4.py",
-    "01_Community Treasurer/sedw7tVUj",
-    "01_Community Treasurer/fix_context_3.py",
-    "01_Community Treasurer/fix_context_2.py",
-    "01_Community Treasurer/fix_context.py",
-    "01_Community Treasurer/append_migration.py",
     "01_Community Treasurer/ledger_migration.md",
-    "01_Community Treasurer/inspect_all_sheets.py",
     "01_Community Treasurer/CONTEXT.md",
     "README.md",
     "01_AT Report/references/support-letter-templates.md",
@@ -232,13 +250,6 @@
     "01_Architectural Review/_reference/83 Brixton Rd/README.md",
     "01_Architectural Review/_reference/pajic-costing.md",
     "01_AT Report/references/justification-banks/ms-fes.md",
-    "01_AT Report/references/justification-banks/assessment-discrepancy-reasoning.md",
-    "01_AT Report/references/submission-compliance-checklist.md",
-    "01_AT Report/references/report-block-structure.md",
-    "01_AT Report/references/outcome-measures.md",
-    "01_AT Report/references/org-info.md",
-    "01_AT Report/references/ndis-phrasebook.md",
-    "01_AT Report/references/generic-at-report-guide.md",
     "01_Projects/Korthotics/Paediatric Orthosis AM Workflow.canvas",
     "01_Projects/Korthotics/Theory of Change.canvas",
     "Untitled.canvas",
