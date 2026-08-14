@@ -1,24 +1,17 @@
 {
   "schemaVersion": 1,
   "source": "termy",
-  "updatedAt": "2026-08-11T12:10:10.668Z",
+  "updatedAt": "2026-08-14T01:18:01.075Z",
   "vaultRoot": "C:/Users/KinJLy/Documents/GitHub/icm-architect",
   "workspaceFolders": [
     "C:/Users/KinJLy/Documents/GitHub/icm-architect"
   ],
   "activeFile": {
-    "filePath": "C:\\Users\\KinJLy\\Documents\\GitHub\\icm-architect\\01_Community Treasurer\\CONTEXT.md",
-    "vaultPath": "01_Community Treasurer/CONTEXT.md",
-    "fileUrl": "file:///C:/Users/KinJLy/Documents/GitHub/icm-architect/01_Community%20Treasurer/CONTEXT.md",
+    "filePath": "C:\\Users\\KinJLy\\Documents\\GitHub\\icm-architect\\01_Architectural Review\\_reference\\83 Brixton Rd\\fwd83brixtonsydneywaterapprovaldocuments\\7050_BPA_Stamped Architectural plan.pdf",
+    "vaultPath": "01_Architectural Review/_reference/83 Brixton Rd/fwd83brixtonsydneywaterapprovaldocuments/7050_BPA_Stamped Architectural plan.pdf",
+    "fileUrl": "file:///C:/Users/KinJLy/Documents/GitHub/icm-architect/01_Architectural%20Review/_reference/83%20Brixton%20Rd/fwd83brixtonsydneywaterapprovaldocuments/7050_BPA_Stamped%20Architectural%20plan.pdf",
     "hasFocus": false
   },
-  "openFiles": [
-    {
-      "filePath": "C:\\Users\\KinJLy\\Documents\\GitHub\\icm-architect\\01_Community Treasurer\\CONTEXT.md",
-      "vaultPath": "01_Community Treasurer/CONTEXT.md",
-      "fileUrl": "file:///C:/Users/KinJLy/Documents/GitHub/icm-architect/01_Community%20Treasurer/CONTEXT.md",
-      "isActive": true
-    }
-  ],
+  "openFiles": [],
   "selection": null
 }

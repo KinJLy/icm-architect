@@ -11,14 +11,16 @@
             "id": "e966bd8bfbac838d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "01_Community Treasurer/CONTEXT.md",
-                "mode": "source",
-                "source": false
+                "file": "01_Architectural Review/_reference/83 Brixton Rd/fwd83brixtonsydneywaterapprovaldocuments/7050_BPA_Stamped Architectural plan.pdf",
+                "page": 1,
+                "left": -4,
+                "top": 27,
+                "zoom": 1
               },
-              "icon": "lucide-file",
-              "title": "CONTEXT"
+              "icon": "lucide-file-text",
+              "title": "7050_BPA_Stamped Architectural plan"
             }
           }
         ]
@@ -212,8 +214,13 @@
       "termy:Open terminal": false
     }
   },
-  "active": "15d73363f0fa71bc",
+  "active": "e966bd8bfbac838d",
   "lastOpenFiles": [
+    "01_Architectural Review/_reference/83 Brixton Rd/fwd83brixtonsydneywaterapprovaldocuments/7050_BPA_Stamped Structural plan.pdf",
+    "01_Architectural Review/_reference/83 Brixton Rd/fwd83brixtonsydneywaterapprovaldocuments/7050_BPA_Stamped Architectural plan.pdf",
+    "01_Architectural Review/_reference/83 Brixton Rd/fwd83brixtonsydneywaterapprovaldocuments/7050_BPA_Subject to requirements.pdf",
+    "01_Architectural Review/_reference/83 Brixton Rd/fwd83brixtonsydneywaterapprovaldocuments/7050_BPA_TAP IN 1650950.pdf",
+    "01_Community Treasurer/CONTEXT.md",
     "01_Community Treasurer/CONTEXT.md.tmp.30056.12af1bd6e50b",
     "01_Community Treasurer/STATUS.md",
     "01_Community Treasurer/STATUS.md.tmp.30056.c403166bc1c3",
@@ -226,12 +233,8 @@
     "01_Community Treasurer/_shared/accounts.md.tmp.30056.7d404fdb2bb2",
     "01_Community Treasurer/03_Ledger/ledger-1836.md",
     "01_Community Treasurer/03_Ledger/ledger-5443.md",
-    "01_Community Treasurer/02_Reconcile/output/1836-historical-reconciliation.md.tmp.30056.26eb79e2114a",
-    "01_Community Treasurer/02_Reconcile/output/5443-historical-reconciliation.md.tmp.30056.7564a1b47f97",
     "01_Community Treasurer/02_Reconcile/output/1836-historical-reconciliation.md",
     "01_Community Treasurer/02_Reconcile/output/5443-historical-reconciliation.md",
-    "01_Community Treasurer/01_Import/inbox/1836-historical.csv",
-    "01_Community Treasurer/01_Import/inbox/5443-historical.csv",
     "01_Community Treasurer/_shared/accounts.md",
     "01_Community Treasurer/02_Reconcile/transactions-2026.md",
     "01_Community Treasurer/03_Ledger/ledger-1844.md",
@@ -239,7 +242,6 @@
     "01_Community Treasurer/ledger-1844-migration.md",
     "01_Community Treasurer/ledger-0259-migration.md",
     "01_Community Treasurer/ledger_migration.md",
-    "01_Community Treasurer/CONTEXT.md",
     "README.md",
     "01_AT Report/references/support-letter-templates.md",
     "01_AT Report/_templates/case-template/02_trial-request/CONTEXT.md",
