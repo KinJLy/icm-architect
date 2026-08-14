@@ -1,12 +1,24 @@
 {
   "schemaVersion": 1,
   "source": "termy",
-  "updatedAt": "2026-08-14T14:29:45.553Z",
+  "updatedAt": "2026-08-14T14:36:22.561Z",
   "vaultRoot": "C:/Users/KinJLy/Documents/GitHub/icm-architect",
   "workspaceFolders": [
     "C:/Users/KinJLy/Documents/GitHub/icm-architect"
   ],
-  "activeFile": null,
-  "openFiles": [],
+  "activeFile": {
+    "filePath": "C:\\Users\\KinJLy\\Documents\\GitHub\\icm-architect\\01_Senate Accountability Briefs\\CLAUDE.md",
+    "vaultPath": "01_Senate Accountability Briefs/CLAUDE.md",
+    "fileUrl": "file:///C:/Users/KinJLy/Documents/GitHub/icm-architect/01_Senate%20Accountability%20Briefs/CLAUDE.md",
+    "hasFocus": false
+  },
+  "openFiles": [
+    {
+      "filePath": "C:\\Users\\KinJLy\\Documents\\GitHub\\icm-architect\\01_Senate Accountability Briefs\\CLAUDE.md",
+      "vaultPath": "01_Senate Accountability Briefs/CLAUDE.md",
+      "fileUrl": "file:///C:/Users/KinJLy/Documents/GitHub/icm-architect/01_Senate%20Accountability%20Briefs/CLAUDE.md",
+      "isActive": true
+    }
+  ],
   "selection": null
 }

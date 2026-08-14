@@ -21,7 +21,7 @@ import openpyxl
 import yaml
 from pypdf import PdfReader
 
-BASE = Path(r"C:\Users\KinJLy\Documents\GitHub\icm-architect\01_Senate Accountability Briefs")
+BASE = Path(__file__).resolve().parent.parent.parent  # _system/tools -> _system -> workspace root
 REF = BASE / "01_reference"
 WORKBOOK = REF / "source-data" / "Senate ndis table completed.xlsx"
 CONTACTS = REF / "source-data" / "senate contact list.pdf"

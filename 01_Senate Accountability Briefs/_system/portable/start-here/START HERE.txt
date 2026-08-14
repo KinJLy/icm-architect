@@ -1,0 +1,37 @@
+START HERE
+==========
+
+You have 5 files in this folder:
+
+1. bundle.md  OR  bundle.txt  -  pick ONE of these two (they're identical content,
+   just two file types in case your chat rejects one of them). This has everything:
+   the brief template, the rules for vote position and portfolios, and every
+   senator's data.
+2. brief-template.docx  -  the blank Word document itself.
+3. Gallagher example brief.docx  -  a real filled-in example, so you (or the AI)
+   can check the result looks right.
+4. This file.
+
+WHAT TO DO
+----------
+1. Open a chat with any AI (ChatGPT, Claude, Gemini, etc).
+2. Drop in bundle.md (or bundle.txt) and brief-template.docx. Add the Gallagher
+   example too if you want the AI to compare its output against a real one.
+3. Type something like this, filling in the senator's name:
+
+   "I've attached reference material for the NDIS Senate Accountability Briefs
+   project, plus a blank Word template (brief-template.docx). I want a completed
+   brief for Senator [SENATOR NAME]. Find that senator's data in the attached
+   material, check whether they hold a relevant portfolio and what their expected
+   vote position is (the rules for both are in the attached material), then fill
+   in brief-template.docx with everything using python-docx if you're able to run
+   code. If you can't run code, just give me the completed brief as text and I'll
+   paste it into Word myself."
+
+4. Want to add your own story? Mention it in that same message, or paste it in
+   separately, or ask the AI to help you write one with a few questions.
+
+That's it. Everything else in this workspace (the full folder structure, the
+individual reference files, the automated scripts) is for when you want more
+control, or you're working with an AI that has direct file/code access to the
+whole thing rather than just a chat window.
