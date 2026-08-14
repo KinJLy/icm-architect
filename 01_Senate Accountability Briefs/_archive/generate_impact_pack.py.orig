@@ -1,0 +1,259 @@
+"""
+Generate Senate Accountability Briefs ("Senate Impact Packs") by merging:
+  - Senate_Accountability_Brief_Template.docx
+  - Senate ndis table completed.xlsx (per-senator NDIS/elector data)
+  - senate contact list.pdf (party + office email)
+
+Footprint formula reverse-engineered from the Gallagher ACT example brief:
+  carers          = 2 x participants
+  family members  = 4 x participants
+  workforce proxy = active providers (as-is)
+  community       = 6 x participants
+  total footprint = sum of the above (+ participants)
+"""
+import re
+import sys
+from pathlib import Path
+
+import docx
+import openpyxl
+from pypdf import PdfReader
+
+BASE = Path(r"C:\Users\KinJLy\Documents\GitHub\icm-architect\01_Senate Accountability Briefs\disabilityleadersmemberscommunityndisamendmentbill")
+TEMPLATE = BASE / "Senate_Accountability_Brief_Template.docx"
+WORKBOOK = BASE / "Senate ndis table completed.xlsx"
+CONTACTS = BASE / "senate contact list.pdf"
+OUT_DIR = BASE / "Senate Impact Packs"
+
+STATE_NAMES = {
+    "ACT": "Australian Capital Territory", "NSW": "New South Wales", "NT": "Northern Territory",
+    "QLD": "Queensland", "SA": "South Australia", "TAS": "Tasmania", "VIC": "Victoria", "WA": "Western Australia",
+}
+
+# Parties whose ~61 combined votes are expected to pass the bill (per user direction).
+GOVT_BLOC_ABBR = {"ALP", "LP", "NATS", "NP", "LNP", "ON", "CLP"}
+GREENS_ABBR = {"AG", "GRN"}
+
+
+def normalize_name(name: str) -> str:
+    """Key on first + last name only, so middle names/titles in either
+    source (workbook vs contact list) don't break the match."""
+    name = re.sub(r"^(Senator\s+)?(the\s+Hon\s+)?", "", name, flags=re.I)
+    name = re.sub(r"\s*\([^)]*\)", "", name)  # drop preferred-name parens
+    words = re.sub(r"\s+", " ", name).strip().split(" ")
+    words = [w for w in words if w]
+    if len(words) < 2:
+        return name.strip().lower()
+    return f"{words[0]} {words[-1]}".lower()
+
+
+def load_workbook_rows():
+    wb = openpyxl.load_workbook(WORKBOOK, data_only=True)
+    ws = wb.active
+    headers = [c.value for c in ws[1]]
+    rows = {}
+    for row in ws.iter_rows(min_row=2, values_only=True):
+        rec = dict(zip(headers, row))
+        rows[normalize_name(rec["Senator"])] = rec
+    return rows
+
+
+STATE_ABBR_RE = r"(?:NSW|VIC|QLD|WA|SA|TAS|NT|ACT)"
+
+
+def load_contacts():
+    reader = PdfReader(str(CONTACTS))
+    full_text = "\n".join(p.extract_text() for p in reader.pages)
+
+    # Entry boundary marker only (name/state/party/email are parsed separately
+    # within the block, since the PDF's line-wrapping is inconsistent - state
+    # and party sometimes sit on the same line as the surname, sometimes not).
+    marker_re = re.compile(r"\n\**\d+\s+[A-Za-z'\u2019\-]+(?:\s+[A-Za-z'\u2019\-]+)?,\s+Senator\b")
+    markers = list(marker_re.finditer(full_text))
+
+    entries = {}
+    for i, m in enumerate(markers):
+        block_start = m.start() + 1  # drop leading \n
+        block_end = markers[i + 1].start() if i + 1 < len(markers) else len(full_text)
+        block = full_text[block_start:block_end]
+
+        header_match = re.match(r"\**\d+\s+([A-Za-z'\u2019\-]+(?:\s+[A-Za-z'\u2019\-]+)?),\s+Senator\s+(.+?)\s*" + STATE_ABBR_RE, block, re.S)
+        if not header_match:
+            print(f"WARN: could not find name/state in block: {block[:80]!r}")
+            continue
+        last, first_full = header_match.groups()
+        first_full = re.sub(r"\s*\([^)]*\)", " ", first_full)  # drop preferred-name/title parens
+        first_full = re.sub(r"\s+", " ", first_full).strip()
+        full_name = f"{first_full} {last}"
+
+        state_party = re.search(rf"\b({STATE_ABBR_RE})\s+([A-Z]{{2,5}})\b", block)
+        email = re.search(r"Email:\s*([\w.\-’']+@aph\.gov\.au)", block)
+        if not state_party or not email:
+            print(f"WARN: could not parse contact block for {full_name}")
+            continue
+
+        entries[normalize_name(full_name)] = {
+            "state": state_party.group(1),
+            "party": state_party.group(2),
+            "email": email.group(1),
+        }
+    return entries
+
+
+PARTY_FULL = {
+    "ALP": "Australian Labor Party", "LP": "Liberal Party", "NATS": "The Nationals", "NP": "The Nationals",
+    "LNP": "Liberal National Party", "AG": "Australian Greens", "ON": "Pauline Hanson's One Nation",
+    "UAP": "United Australia Party", "IND": "Independent", "JLN": "Jacqui Lambie Network",
+    "CLP": "Country Liberal Party",
+}
+
+
+# Known/declared positions from the Community Affairs committee's final report
+# (Aug 2026) override the generic party-bloc default below.
+VOTE_POSITION_OVERRIDES = {
+    "david pocock": "Expected No (dissenting report, Community Affairs committee final report, Aug 2026)",
+    "jordon steele-john": "Expected No (Greens dissenting report, Community Affairs committee final report, Aug 2026)",
+}
+
+
+def vote_position_and_ask(senator_key: str, party_abbr: str):
+    ask = ("Require safeguards, transparent monitoring and a public implementation "
+           "accountability mechanism before the vote")
+    if senator_key in VOTE_POSITION_OVERRIDES:
+        return VOTE_POSITION_OVERRIDES[senator_key], ask
+    if party_abbr in GOVT_BLOC_ABBR:
+        return f"Expected {PARTY_FULL.get(party_abbr, party_abbr)} support, subject to confirmation", ask
+    if party_abbr in GREENS_ABBR:
+        return "Expected opposition", ask
+    return "Unknown", ask
+
+
+def fmt_money_billion(v):
+    return f"${v / 1_000_000_000:.3f} billion"
+
+
+def fmt_money_million(v):
+    return f"${v / 1_000_000:.1f} million"
+
+
+def build_replacements(senator_name, wb_row, contact):
+    state_abbr = wb_row["State"]
+    state_full = STATE_NAMES.get(state_abbr, state_abbr)
+    participants = int(wb_row["Active Participants"])
+    providers = int(wb_row["Active Providers"])
+    carers = participants * 2
+    family = participants * 4
+    community = participants * 6
+    total_footprint = participants + carers + family + providers + community
+    vote_position, ask = vote_position_and_ask(normalize_name(senator_name), contact["party"])
+
+    return {
+        "[SENATOR NAME]": senator_name.upper(),
+        "Senator [Senator Name]": f"Senator {senator_name}",
+        "[Senator Name]": senator_name,
+        "[Party]": PARTY_FULL.get(contact["party"], contact["party"]),
+        "[STATE/TERRITORY]": state_full,
+        "[State/Territory]": state_full,
+        "[Email Address]": contact["email"],
+        "[Vote Position]": vote_position,
+        "[Immediate Ask]": ask,
+        "[Total Electors]": f"{int(wb_row['State Electors']):,}",
+        "[Female Electors]": f"{int(wb_row['State Female Electors']):,}",
+        "[Male Electors]": f"{int(wb_row['State Male Electors']):,}",
+        "[NDIS Participants]": f"{participants:,}",
+        "[Children]": f"{int(wb_row['0-14 Years']):,}",
+        "[Autism Participants]": f"{int(wb_row['Autism']):,}",
+        "[Psychosocial Participants]": f"{int(wb_row['Psychosocial Disability']):,}",
+        "[First Nations Participants]": f"{int(wb_row['First Nations']):,}",
+        "[CALD Participants]": f"{int(wb_row['CALD']):,}",
+        "[Providers]": f"{providers:,}",
+        "$[Annual Funding] Billion": fmt_money_billion(wb_row["Estimated Annual Funding Flow"]),
+        "[Carers Estimate]": f"{carers:,}",
+        "[Family Estimate]": f"{family:,}",
+        "[Workforce Estimate]": f"{providers:,}",
+        "[Community Estimate]": f"{community:,}",
+        "[Total Influence Estimate]": f"{total_footprint:,}",
+        "$[1 Percent Reduction] Million": fmt_money_million(wb_row["Estimated Annual Funding Flow"] * 0.01),
+        "$[5 Percent Reduction] Million": fmt_money_million(wb_row["Estimated Annual Funding Flow"] * 0.05),
+        "$[10 Percent Reduction] Million": fmt_money_million(wb_row["Estimated Annual Funding Flow"] * 0.10),
+    }
+
+
+def replace_in_paragraph(paragraph, replacements):
+    if not paragraph.runs:
+        return
+    full_text = "".join(r.text for r in paragraph.runs)
+    if "[" not in full_text:
+        return
+    new_text = full_text
+    for k, v in replacements.items():
+        new_text = new_text.replace(k, v)
+    if new_text == full_text:
+        return
+    paragraph.runs[0].text = new_text
+    for r in paragraph.runs[1:]:
+        r.text = ""
+
+
+# Reference/legend tables (identified by their header row) are documentation
+# for whoever fills the template out by hand - they intentionally keep literal
+# [bracket] placeholder text and must not be touched by the merge.
+REFERENCE_TABLE_HEADERS = {"template field", "field"}
+REFERENCE_TABLE_SECOND_HEADERS = {"replace with", "required value"}
+
+
+def is_reference_table(table):
+    if not table.rows:
+        return False
+    header_cells = [c.text.strip().lower() for c in table.rows[0].cells]
+    if not header_cells:
+        return False
+    return (
+        header_cells[0] in REFERENCE_TABLE_HEADERS
+        and len(header_cells) > 1
+        and header_cells[1] in REFERENCE_TABLE_SECOND_HEADERS
+    )
+
+
+def apply_replacements(doc, replacements):
+    for p in doc.paragraphs:
+        replace_in_paragraph(p, replacements)
+    for t in doc.tables:
+        if is_reference_table(t):
+            continue
+        for row in t.rows:
+            for cell in row.cells:
+                for p in cell.paragraphs:
+                    replace_in_paragraph(p, replacements)
+
+
+def generate_for_senator(senator_key, wb_rows, contacts):
+    if senator_key not in wb_rows:
+        print(f"SKIP (not in workbook): {senator_key}")
+        return
+    if senator_key not in contacts:
+        print(f"SKIP (not in contact list): {senator_key}")
+        return
+    wb_row = wb_rows[senator_key]
+    contact = contacts[senator_key]
+    senator_display = wb_row["Senator"].replace("Senator the Hon ", "").replace("Senator ", "")
+
+    replacements = build_replacements(senator_display, wb_row, contact)
+    doc = docx.Document(str(TEMPLATE))
+    apply_replacements(doc, replacements)
+
+    OUT_DIR.mkdir(exist_ok=True)
+    safe_name = re.sub(r"[^\w\- ]", "", senator_display).strip()
+    out_path = OUT_DIR / f"{safe_name} Senate Impact Pack.docx"
+    doc.save(str(out_path))
+    print(f"Wrote {out_path}")
+
+
+if __name__ == "__main__":
+    wb_rows = load_workbook_rows()
+    contacts = load_contacts()
+    print(f"Workbook senators: {len(wb_rows)}  Contact list senators: {len(contacts)}")
+
+    test_senators = sys.argv[1:] or ["katherine gallagher", "pauline hanson", "david pocock"]
+    for s in test_senators:
+        generate_for_senator(normalize_name(s), wb_rows, contacts)

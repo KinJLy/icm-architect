@@ -4,23 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a9962055e0cd202f",
+        "id": "78fea447caaf72af",
         "type": "tabs",
         "children": [
           {
-            "id": "e966bd8bfbac838d",
+            "id": "fea8d822cde8c5a9",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "01_Architectural Review/_reference/83 Brixton Rd/fwd83brixtonsydneywaterapprovaldocuments/7050_BPA_Stamped Architectural plan.pdf",
-                "page": 1,
-                "left": -38,
-                "top": 529,
-                "zoom": 0.4378338877129322
-              },
-              "icon": "lucide-file-text",
-              "title": "7050_BPA_Stamped Architectural plan"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -57,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pwda",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -193,7 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 461.5
+    "width": 639.8999633789062
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,47 +205,48 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "termy:Open terminal": false
+      "termy:Open terminal": false,
+      "markitdown-flow:Convert to Markdown": false
     }
   },
-  "active": "e966bd8bfbac838d",
+  "active": "15d73363f0fa71bc",
   "lastOpenFiles": [
-    "01_Architectural Review/_reference/83 Brixton Rd/fwd83brixtonsydneywaterapprovaldocuments/7050_BPA_Stamped Structural plan.pdf",
-    "01_Architectural Review/_reference/83 Brixton Rd/fwd83brixtonsydneywaterapprovaldocuments/7050_BPA_Stamped Architectural plan.pdf",
-    "01_Architectural Review/_reference/83 Brixton Rd/fwd83brixtonsydneywaterapprovaldocuments/7050_BPA_Subject to requirements.pdf",
-    "01_Architectural Review/_reference/83 Brixton Rd/fwd83brixtonsydneywaterapprovaldocuments/7050_BPA_TAP IN 1650950.pdf",
-    "01_Community Treasurer/CONTEXT.md",
-    "01_Community Treasurer/CONTEXT.md.tmp.30056.12af1bd6e50b",
-    "01_Community Treasurer/STATUS.md",
-    "01_Community Treasurer/STATUS.md.tmp.30056.c403166bc1c3",
-    "01_Community Treasurer/decisions.md.tmp.30056.ba33317faa39",
-    "01_Community Treasurer/decisions.md.tmp.30056.c35f2ca59613",
-    "01_Community Treasurer/decisions.md.tmp.30056.693c78a79e0f",
-    "01_Community Treasurer/decisions.md",
-    "01_Community Treasurer/CLAUDE.md",
-    "01_Community Treasurer/_shared/accounts.md.tmp.30056.9c0d7b4ee324",
-    "01_Community Treasurer/_shared/accounts.md.tmp.30056.7d404fdb2bb2",
-    "01_Community Treasurer/03_Ledger/ledger-1836.md",
-    "01_Community Treasurer/03_Ledger/ledger-5443.md",
-    "01_Community Treasurer/02_Reconcile/output/1836-historical-reconciliation.md",
-    "01_Community Treasurer/02_Reconcile/output/5443-historical-reconciliation.md",
-    "01_Community Treasurer/_shared/accounts.md",
-    "01_Community Treasurer/02_Reconcile/transactions-2026.md",
-    "01_Community Treasurer/03_Ledger/ledger-1844.md",
-    "01_Community Treasurer/03_Ledger/ledger-0259.md",
-    "01_Community Treasurer/ledger-1844-migration.md",
-    "01_Community Treasurer/ledger-0259-migration.md",
-    "01_Community Treasurer/ledger_migration.md",
+    "01_Senate Accountability Briefs/02_output/Katherine Gallagher Senate Impact Pack.docx",
+    "01_Senate Accountability Briefs/02_output/Jordon Steele-John Senate Impact Pack.docx",
+    "01_Senate Accountability Briefs/02_output/David Pocock Senate Impact Pack.docx",
+    "01_Senate Accountability Briefs/01_reference/chat-only-workflow.md",
+    "01_Senate Accountability Briefs/CLAUDE.md",
     "README.md",
-    "01_AT Report/references/support-letter-templates.md",
-    "01_AT Report/_templates/case-template/02_trial-request/CONTEXT.md",
-    "01_AT Report/CONTEXT.md",
-    "01_Architectural Review/01_compare/output/round-01-comparison.md",
-    "01_Architectural Review/01_compare/output/README.md",
-    "01_Architectural Review/_reference/voice.md",
-    "01_Architectural Review/_reference/83 Brixton Rd/README.md",
-    "01_Architectural Review/_reference/pajic-costing.md",
-    "01_AT Report/references/justification-banks/ms-fes.md",
+    "01_Senate Accountability Briefs/02_output/Pauline Hanson Senate Impact Pack.docx",
+    "01_Senate Accountability Briefs/_system/tools/__pycache__/render_brief_docx.cpython-313.pyc",
+    "01_Senate Accountability Briefs/_system/tools/__pycache__/render_brief_docx.cpython-313.pyc.2146779509168",
+    "01_Senate Accountability Briefs/_system/tools/__pycache__/_selection.cpython-313.pyc",
+    "01_Senate Accountability Briefs/_system/tools/__pycache__/_selection.cpython-313.pyc.2011648098704",
+    "01_Senate Accountability Briefs/_system/tools/__pycache__",
+    "01_Senate Accountability Briefs/CLAUDE.md.tmp.4016.c0c5f4947c33",
+    "01_Senate Accountability Briefs/records/david-pocock/record.md.tmp.4016.9e1caab2798c",
+    "01_Senate Accountability Briefs/_templates/personal-note.md",
+    "01_Senate Accountability Briefs/records/katherine-gallagher/personal-note.md",
+    "01_Senate Accountability Briefs/01_reference/sender-profile.md",
+    "01_Senate Accountability Briefs/records/tyron-whitten/record.md",
+    "01_Senate Accountability Briefs/records/malcolm-roberts/record.md",
+    "01_Senate Accountability Briefs/records/sean-bell/record.md",
+    "01_Senate Accountability Briefs/_templates/senator-record.md",
+    "01_Senate Accountability Briefs/records/jordon-steele-john/record.md",
+    "01_Senate Accountability Briefs/records/david-pocock/record.md",
+    "01_Senate Accountability Briefs/records/pauline-hanson/record.md",
+    "01_Senate Accountability Briefs/records/katherine-gallagher/record.md",
+    "01_Senate Accountability Briefs/01_reference/senator-portfolios.md",
+    "assets/templates/schema.md",
+    "references/core.md",
+    "01_Senate Accountability Briefs/_index/log.md",
+    "01_Senate Accountability Briefs/01_reference/portfolio-relevance.md",
+    "01_Senate Accountability Briefs/01_reference/vote-position-rules.md",
+    "01_Senate Accountability Briefs/01_reference/brief-template.md",
+    "01_Senate Accountability Briefs/01_reference/campaign-brief.md",
+    "01_Senate Accountability Briefs/disabilityleadersmemberscommunityndisamendmentbill/Senate_Accountability_Brief_Template_v2.md",
+    "01_Senate Accountability Briefs/NDIS Amendment Bill - We Need to Shift the Pressure Onto Senators Now.md",
+    "01_Community Treasurer/CONTEXT.md",
     "01_Projects/Korthotics/Paediatric Orthosis AM Workflow.canvas",
     "01_Projects/Korthotics/Theory of Change.canvas",
     "Untitled.canvas",

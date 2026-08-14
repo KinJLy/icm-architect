@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "common": {
+    "language": "en",
+    "defaultZoomPercent": 100,
+    "largeFileWarningMb": 25
+  },
+  "docx": {
+    "defaultFitWidth": false,
+    "showOutlineByDefault": true,
+    "enableImagePreview": true
+  },
+  "pptx": {
+    "defaultFitWindow": true,
+    "showNavigationByDefault": true,
+    "showNotesByDefault": false
+  },
+  "xlsx": {
+    "defaultFitWidth": true
+  },
+  "readingStates": [
+    {
+      "path": "01_Senate Accountability Briefs/disabilityleadersmemberscommunityndisamendmentbill/Gallagher ACT Accountability Brief .docx",
+      "mtime": 1786706738070,
+      "format": "docx",
+      "lastAccessed": 5959,
+      "position": {
+        "scrollLeft": 0,
+        "scrollTop": 0
+      },
+      "zoom": {
+        "scale": 1,
+        "fit": false
+      },
+      "navigation": {
+        "panelVisible": true,
+        "collapsedIds": []
+      }
+    },
+    {
+      "path": "01_Senate Accountability Briefs/disabilityleadersmemberscommunityndisamendmentbill/Senate_Accountability_Brief_Template.docx",
+      "mtime": 1786706738034,
+      "format": "docx",
+      "lastAccessed": 5960,
+      "position": {
+        "scrollLeft": 0,
+        "scrollTop": 0
+      },
+      "zoom": {
+        "scale": 1,
+        "fit": false
+      },
+      "navigation": {
+        "panelVisible": true,
+        "collapsedIds": []
+      }
+    },
+    {
+      "path": "01_Senate Accountability Briefs/disabilityleadersmemberscommunityndisamendmentbill/Senate Impact Packs/David Pocock Senate Impact Pack.docx",
+      "mtime": 1786711389437,
+      "format": "docx",
+      "lastAccessed": 5963,
+      "position": {
+        "scrollLeft": 0,
+        "scrollTop": 0
+      },
+      "zoom": {
+        "scale": 1,
+        "fit": false
+      },
+      "navigation": {
+        "panelVisible": true,
+        "collapsedIds": []
+      }
+    },
+    {
+      "path": "01_Senate Accountability Briefs/disabilityleadersmemberscommunityndisamendmentbill/Senate Impact Packs/Jordon Steele-John Senate Impact Pack.docx",
+      "mtime": 1786711389508,
+      "format": "docx",
+      "lastAccessed": 5964,
+      "position": {
+        "scrollLeft": 0,
+        "scrollTop": 0
+      },
+      "zoom": {
+        "scale": 1,
+        "fit": false
+      },
+      "navigation": {
+        "panelVisible": true,
+        "collapsedIds": []
+      }
+    },
+    {
+      "path": "01_Senate Accountability Briefs/disabilityleadersmemberscommunityndisamendmentbill/Senate Impact Packs/Katherine Gallagher Senate Impact Pack.docx",
+      "mtime": 1786711389297,
+      "format": "docx",
+      "lastAccessed": 5965,
+      "position": {
+        "scrollLeft": 0,
+        "scrollTop": 0
+      },
+      "zoom": {
+        "scale": 1,
+        "fit": false
+      },
+      "navigation": {
+        "panelVisible": true,
+        "collapsedIds": []
+      }
+    },
+    {
+      "path": "01_Senate Accountability Briefs/disabilityleadersmemberscommunityndisamendmentbill/Senate Impact Packs/Pauline Hanson Senate Impact Pack.docx",
+      "mtime": 1786711389367,
+      "format": "docx",
+      "lastAccessed": 5966,
+      "position": {
+        "scrollLeft": 0,
+        "scrollTop": 0
+      },
+      "zoom": {
+        "scale": 1,
+        "fit": false
+      },
+      "navigation": {
+        "panelVisible": true,
+        "collapsedIds": []
+      }
+    },
+    {
+      "path": "01_Senate Accountability Briefs/02_output/David Pocock Senate Impact Pack.docx",
+      "mtime": 1786717309042,
+      "format": "docx",
+      "lastAccessed": 8237,
+      "position": {
+        "scrollLeft": 0,
+        "scrollTop": 0
+      },
+      "zoom": {
+        "scale": 1,
+        "fit": false
+      },
+      "navigation": {
+        "panelVisible": true,
+        "collapsedIds": []
+      }
+    },
+    {
+      "path": "01_Senate Accountability Briefs/02_output/Jordon Steele-John Senate Impact Pack.docx",
+      "mtime": 1786717309120,
+      "format": "docx",
+      "lastAccessed": 8515,
+      "position": {
+        "scrollLeft": 0,
+        "scrollTop": 1663.199951171875
+      },
+      "zoom": {
+        "scale": 1,
+        "fit": false
+      },
+      "navigation": {
+        "panelVisible": true,
+        "collapsedIds": []
+      }
+    },
+    {
+      "path": "01_Senate Accountability Briefs/02_output/Katherine Gallagher Senate Impact Pack.docx",
+      "mtime": 1786717309186,
+      "format": "docx",
+      "lastAccessed": 8695,
+      "position": {
+        "scrollLeft": 0,
+        "scrollTop": 2340.800048828125
+      },
+      "zoom": {
+        "scale": 1,
+        "fit": false
+      },
+      "navigation": {
+        "panelVisible": true,
+        "collapsedIds": []
+      }
+    },
+    {
+      "path": "01_Senate Accountability Briefs/02_output/Pauline Hanson Senate Impact Pack.docx",
+      "mtime": 1786717309258,
+      "format": "docx",
+      "lastAccessed": 8954,
+      "position": {
+        "scrollLeft": 0,
+        "scrollTop": 1920
+      },
+      "zoom": {
+        "scale": 1,
+        "fit": false
+      },
+      "navigation": {
+        "panelVisible": true,
+        "collapsedIds": []
+      }
+    }
+  ]
+}
