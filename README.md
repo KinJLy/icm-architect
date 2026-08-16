@@ -10,17 +10,16 @@ ICM (Interpretable Context Methodology) replaces orchestration code with structu
 The workspace is a library. The routing files are the catalog: small, stable, they point at everything and store almost nothing. One librarian — one model — walks the building, and the question decides which shelf gets walked to.
 
 - Paper: [Interpretable Context Methodology: Folder Structure as Agent Architecture](https://arxiv.org/abs/2603.16021) (Van Clief & McDermott)
-- Protocol repo: [Interpretable-Context-Methodology-ICM](https://github.com/RinDig/Interpretable-Context-Methodology-ICM-)
-- Community: [eduba.io](https://eduba.io)
+- Community: [Clief Notes](https://www.skool.com/cliefnotes)
 
 ## What it does
 
 Two modes:
 
-- **Build** — extracts the structure already present in how you describe your work (the stages, the human gates, what's stable vs. per-run), picks one of five proven forms, and scaffolds the smallest workspace that carries it.
+- **Build** — extracts the structure already present in how you describe your work (the stages, the human gates, what's stable vs. per-run), picks one of six proven forms, and scaffolds the smallest workspace that carries it.
 - **Restructure** — audits an existing folder, classifies every file (catalog / contract / factory / product / dead), proposes a migration map for approval, then migrates and validates.
 
-Five forms, one skeleton: **Pipeline** (production line), **Umbrella** (portfolio of pipelines), **Record library** (people/clients/sessions), **Knowledge bundle** (a navigable brain), **Context map** (an organization as a graph). They compose and recurse.
+Six forms, one skeleton: **Pipeline** (production line), **Umbrella** (portfolio of pipelines), **Record library** (people/clients/sessions), **Knowledge bundle** (a navigable brain), **Context map** (an organization as a graph), **System map** (a folder later agents will edit — nouns, movements, change-impact). They compose and recurse.
 
 Every result is validated with the **walk test**: an agent with no memory must orient, act, and report status from the files alone.
 
@@ -37,9 +36,10 @@ icm-architect/
 ├─ SKILL.md              the method: invariants, build mode, restructure mode, walk test
 ├─ references/
 │  ├─ core.md            five principles, five-layer hierarchy, naming, token discipline
-│  └─ forms.md           the five forms in depth: skeletons, moves, failure modes
+│  ├─ forms.md           the six forms in depth: skeletons, moves, failure modes
+│  └─ system-map.md      audit pipeline for the System map form
 └─ assets/templates/     copyable starters: CLAUDE.md, CONTEXT.md, stage contract,
-                         node card, schema, setup questionnaire
+                         node card, object/process cards, schema, questionnaire
 ```
 
 MIT licensed, like the protocol it serves.
