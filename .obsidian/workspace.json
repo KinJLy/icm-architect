@@ -11,14 +11,10 @@
             "id": "fea8d822cde8c5a9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01_Senate Accountability Briefs/CLAUDE.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "New tab"
             }
           }
         ]
@@ -183,7 +179,7 @@
               "type": "terminal-view",
               "state": {},
               "icon": "terminal",
-              "title": "Claude Code"
+              "title": "Terminal"
             }
           }
         ],
@@ -215,6 +211,7 @@
   },
   "active": "15d73363f0fa71bc",
   "lastOpenFiles": [
+    "01_Senate Accountability Briefs/CLAUDE.md",
     "01_Senate Accountability Briefs/_system/portable/start-here/~$llagher example brief.docx",
     "01_Senate Accountability Briefs/_system/portable/start-here/~$ief-template.docx",
     "01_Senate Accountability Briefs.zip",
@@ -225,7 +222,6 @@
     "01_Senate Accountability Briefs/_system/portable/start-here/START HERE.txt",
     "01_Senate Accountability Briefs/_system/portable/start-here/Gallagher example brief.docx",
     "01_Senate Accountability Briefs/_system/portable/start-here/bundle.txt",
-    "01_Senate Accountability Briefs/_system/portable/start-here/brief-template.docx",
     "01_Senate Accountability Briefs/_system/portable/start-here/bundle.md",
     "01_Senate Accountability Briefs/_system/portable/bundle.md",
     "01_Senate Accountability Briefs/_system/portable/flat-files/_system__icm-method__SKILL.md",

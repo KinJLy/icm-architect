@@ -131,7 +131,25 @@
       "path": "01_Senate Accountability Briefs/02_output/David Pocock Senate Impact Pack.docx",
       "mtime": 1786717309042,
       "format": "docx",
-      "lastAccessed": 8237,
+      "lastAccessed": 8960,
+      "position": {
+        "scrollLeft": 0,
+        "scrollTop": 0
+      },
+      "zoom": {
+        "scale": 1,
+        "fit": false
+      },
+      "navigation": {
+        "panelVisible": true,
+        "collapsedIds": []
+      }
+    },
+    {
+      "path": "01_Senate Accountability Briefs/02_output/Katherine Gallagher Senate Impact Pack.docx",
+      "mtime": 1786717309186,
+      "format": "docx",
+      "lastAccessed": 8961,
       "position": {
         "scrollLeft": 0,
         "scrollTop": 0
@@ -149,10 +167,10 @@
       "path": "01_Senate Accountability Briefs/02_output/Jordon Steele-John Senate Impact Pack.docx",
       "mtime": 1786717309120,
       "format": "docx",
-      "lastAccessed": 8515,
+      "lastAccessed": 8962,
       "position": {
         "scrollLeft": 0,
-        "scrollTop": 1663.199951171875
+        "scrollTop": 0
       },
       "zoom": {
         "scale": 1,
@@ -167,25 +185,7 @@
       "path": "01_Senate Accountability Briefs/02_output/Pauline Hanson Senate Impact Pack.docx",
       "mtime": 1786717309258,
       "format": "docx",
-      "lastAccessed": 8954,
-      "position": {
-        "scrollLeft": 0,
-        "scrollTop": 1920
-      },
-      "zoom": {
-        "scale": 1,
-        "fit": false
-      },
-      "navigation": {
-        "panelVisible": true,
-        "collapsedIds": []
-      }
-    },
-    {
-      "path": "01_Senate Accountability Briefs/02_output/Katherine Gallagher Senate Impact Pack.docx",
-      "mtime": 1786717309186,
-      "format": "docx",
-      "lastAccessed": 8959,
+      "lastAccessed": 8963,
       "position": {
         "scrollLeft": 0,
         "scrollTop": 0
