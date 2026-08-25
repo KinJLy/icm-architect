@@ -11,10 +11,14 @@
             "id": "fea8d822cde8c5a9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "README"
             }
           }
         ]
@@ -209,8 +213,9 @@
       "markitdown-flow:Convert to Markdown": false
     }
   },
-  "active": "15d73363f0fa71bc",
+  "active": "fea8d822cde8c5a9",
   "lastOpenFiles": [
+    "SKILL.md",
     "references/system-map.md",
     "assets/templates/process.md",
     "assets/templates/object.md",
@@ -246,7 +251,6 @@
     "01_Senate Accountability Briefs/_system/portable/flat-files/01_reference__sender-profile.md",
     "01_Senate Accountability Briefs/_system/portable/flat-files/01_reference__senator-portfolios.md",
     "01_Senate Accountability Briefs/_system/portable/flat-files/01_reference__portfolio-relevance.md",
-    "01_Senate Accountability Briefs/_system/portable/flat-files/01_reference__chat-only-workflow.md",
     "01_Projects/Korthotics/Paediatric Orthosis AM Workflow.canvas",
     "01_Projects/Korthotics/Theory of Change.canvas",
     "Untitled.canvas",

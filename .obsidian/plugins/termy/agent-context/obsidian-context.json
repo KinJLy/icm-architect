@@ -1,12 +1,24 @@
 {
   "schemaVersion": 1,
   "source": "termy",
-  "updatedAt": "2026-08-21T11:56:26.573Z",
+  "updatedAt": "2026-08-25T12:22:58.262Z",
   "vaultRoot": "C:/Users/KinJLy/Documents/GitHub/icm-architect",
   "workspaceFolders": [
     "C:/Users/KinJLy/Documents/GitHub/icm-architect"
   ],
-  "activeFile": null,
-  "openFiles": [],
+  "activeFile": {
+    "filePath": "C:\\Users\\KinJLy\\Documents\\GitHub\\icm-architect\\README.md",
+    "vaultPath": "README.md",
+    "fileUrl": "file:///C:/Users/KinJLy/Documents/GitHub/icm-architect/README.md",
+    "hasFocus": false
+  },
+  "openFiles": [
+    {
+      "filePath": "C:\\Users\\KinJLy\\Documents\\GitHub\\icm-architect\\README.md",
+      "vaultPath": "README.md",
+      "fileUrl": "file:///C:/Users/KinJLy/Documents/GitHub/icm-architect/README.md",
+      "isActive": true
+    }
+  ],
   "selection": null
 }
